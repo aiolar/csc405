@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title></title>
+      <link rel="stylesheet" href="calculator.css">
+      <!-- <script src="func.js"></script> -->
+   </head>
+   <body>
+      <form>
+
+         <input id="disp1" type="display" class="disp1" name="" value="">
+         <input id="disp2" type="display" class="disp2" placeholder="0">
+         <br>
+         <input id="" class="button" type="button" name="" value="%">
+         <input id="" class="button" type="button" name="" value="CE" onclick=clearDisplay()>
+         <input id="" class="button" type="button" name="" value="C" onclick=clearBoth()>
+         <input id="" class="button" type="button" name="" value=&lArr; onclick=backSpace()>
+         <input type="button" class="button" id="powerten" onclick =sciCal(this.id) value= "10^x">
+         <br>
+         <input type="button" class="button" id="asin" onclick =sciCal(this.id) value= "(sin)^-1">
+         <input type="button" class="button" id="acos" onclick =sciCal(this.id) value= "(cos)^-1">
+         <input type="button" class="button" id="atan" onclick =sciCal(this.id) value= "(tan)^-1">
+         <input type="button" class="button" id="^" onclick=inputOpt(this.id) value= "x^y">
+         <input type="button" class="button" id="powerexpo" onclick =sciCal(this.id) value="e^x">
+         <br>
+         <input type="button" class="button" id="Deg" onclick=changeAngle(this.id) value="Deg">
+         <input type="button" class="button" id="pi" onclick =sciCal(this.id) value=&pi;>
+         <input type="button" class="button" id="sin" onclick =sciCal(this.id) value="sin">
+         <input type="button" class="button" id="cos" onclick =sciCal(this.id) value="cos">
+         <input type="button" class="button" id="tan" onclick =sciCal(this.id) value="tan">
+         <br>
+         <input id="sqrt" class="button" type="button" name="" value=&Sqrt; onclick =sciCal(this.id)>
+         <input id="7" class="button" type="button" name="" value="7" onclick=putNum(this.id)>
+         <input id="8" class="button" type="button" name="" value="8" onclick=putNum(this.id)>
+         <input id="9" class="button" type="button" name="" value="9"  onclick=putNum(this.id)>
+         <input id="*" class="button" type="button" name="" value="*" onclick=putSign(this.id)>
+         <br>
+         <input id="sqr" class="button" type="button" name="" value="x^2">
+         <input id="4" class="button" type="button" name="" value="4"  onclick=putNum(this.id)>
+         <input id="5" class="button" type="button" name="" value="5"  onclick=putNum(this.id)>
+         <input id="6" class="button" type="button" name="" value="6"  onclick=putNum(this.id)>
+         <input id="-" class="button" type="button" name="" value="-"  onclick=putSign(this.id)>
+         <br>
+         <input type="button" class="button" id="Mod" onclick=inputOpt(this.id) value="Mod">
+         <input id="1" class="button" type="button" name="" value="1"  onclick=putNum(this.id)>
+         <input id="3" class="button" type="button" name="" value="3"  onclick=putNum(this.id)>
+         <input id="2" class="button" type="button" name="" value="2"  onclick=putNum(this.id)>
+         <input id="+" class="button" type="button" name="" value="+"  onclick=putSign(this.id)>
+         <br>
+         <input id="inverse" class="button" type="button" name="" value="1/x"  onclick =sciCal(this.id)>
+         <input id="plusminus" class="button" type="button" name="" value=&plusmn onclick =sciCal(this.id)>
+         <input id="0" class="button" type="button" name="" value="0"  onclick=putNum(this.id)>
+         <input id="." class="button" type="button" name="" value="." onclick=putNum(this.id)>
+         <input id="÷" class="button" type="button" name="" value=&divide; onclick=putSign(this.id)>
+         <br>
+         <input type="button" class="button" id="root" value= y&Sqrt;x onclick=putSign(this.id)>
+         <input type="button" class="button" id="log" onclick =sciCal(this.id) value="log">
+         <input type="button" class="button" id="ln" onclick =sciCal(this.id) value="ln">
+         <input type="button" class="button" id="fact" onclick =sciCal(this.id) value="n!">
+         <input id="=" class="button" type="button" name="" value="=" onclick=putSign(this.id)>
+      </form>
+
+      <script src="script2.js">
+
+      </script>
+   </body>
+</html>
